@@ -2,11 +2,11 @@
 
 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Logo_for_Conference_on_Neural_Information_Processing_Systems.svg/1200px-Logo_for_Conference_on_Neural_Information_Processing_Systems.svg.png" width=200>
 
-**💡 整理了最受欢迎的ML研究论文代码库中的最佳实践，现已成为 NeurIPS 2020 会议的官方指南！**
+**💡 整理了最受欢迎的ML研究论文代码库中的最佳实践，现已成为 NeurIPS 2021 会议的官方指南！**
 
 为了促进项目的可重复性，基于对 200 多个机器学习项目代码库的分析和 GitHub Stars 的数目 ，我们总结了如下建议。有关更多详细信息，请参见我们的我们的 [博客文章](https://medium.com/paperswithcode/ml-code-completeness-checklist-e9127b168501)。
 
-对于 NeurIPS 2020 会议的代码提交，建议（但不是强制性的）使用 [用前须知.md 模板](templates/README.md)，并根据 ML代码完整性清单（如下所述）核对项目。
+对于 NeurIPS 2021 会议的代码提交，建议（但不是强制性的）使用 [用前须知.md 模板](templates/README.md)，并根据 ML代码完整性清单（如下所述）核对项目。
 
 ## 📋 用前须知.md 模板
 
@@ -84,6 +84,9 @@ ML代码完整性检查清单包含以下五个要素：
 4. [Google Drive](https://drive.google.com) - 支持版本管理，15GB，带宽免费
 5. [Dropbox](https://dropbox.com) - 支持版本管理，2GB（付费无限容量），带宽免费
 6. [AWS S3](https://aws.amazon.com/s3/) - 支持版本管理，仅付费使用，带宽需付费
+7. [huggingface_hub](https://github.com/huggingface/huggingface_hub) - 支持版本管理，无大小限制，带宽免费
+8. [DAGsHub](https://dagshub.com/) - 支持版本管理，无大小限制，带宽免费
+9. [CodaLab Worksheets](https://worksheets.codalab.org/) - 10GB，带宽免费
 
 ### 管理模型文档
 
@@ -98,25 +101,27 @@ ML代码完整性检查清单包含以下五个要素：
 
 ### 指标排行榜
 
-1. [Papers with Code leaderboards](https://paperswithcode.com/sota) - with 2500+ leaderboards
-2. [CodaLab](https://competitions.codalab.org/) - with 450+ leaderboards
-3. [NLP Progress](https://nlpprogress.com/) - with 90+ leaderboards
-4. [EvalAI](https://evalai.cloudcv.org/) - with 50+ leaderboards
-5. [Collective Knowledge](https://cKnowledge.io/reproduced-results) - with 40+ leaderboards
-6. [Weights & Biases - Benchmarks](https://www.wandb.com/benchmarks) - with 9+ leaderboards
+1. [Papers with Code leaderboards](https://paperswithcode.com/sota) - 4000+ 个排行榜
+2. [CodaLab Competitions](https://competitions.codalab.org/) - 450+ 个排行榜
+3. [EvalAI](https://eval.ai/) - 100+ 个排行榜
+4. [NLP Progress](https://nlpprogress.com/) - 90+ 个排行榜
+5. [Collective Knowledge](https://cKnowledge.io/reproduced-results) - 40+ 个排行榜
+6. [Weights & Biases - Benchmarks](https://www.wandb.com/benchmarks) - 9+ 个排行榜
 
 ### 制作项目页面
 
 1. [GitHub pages](https://pages.github.com/)
 2. [Fastpages](https://github.com/fastai/fastpages)
 
-### 制作示例和指南
+### 制作演示、教程和可执行论文
 
 1. [Google Colab](https://colab.research.google.com/)
 
 2. [Binder](https://mybinder.org/)
 
-3. [Streamlit](https://github.com/streamlit/streamlit) 
+3. [Streamlit](https://github.com/streamlit/streamlit)
+
+4. [CodaLab Worksheets](https://worksheets.codalab.org/)
 
    
 
