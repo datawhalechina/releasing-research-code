@@ -2,11 +2,11 @@
 
 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Logo_for_Conference_on_Neural_Information_Processing_Systems.svg/1200px-Logo_for_Conference_on_Neural_Information_Processing_Systems.svg.png" width=200>
 
-**💡 Collated best practices from most popular ML research repositories - *now official guidelines at NeurIPS 2020!*** 
+**💡 Collated best practices from most popular ML research repositories - *now official guidelines at NeurIPS 2021!*** 
 
 Based on analysis of more than 200 Machine Learning repositories, these recommendations facilitate reproducibility and correlate with GitHub stars - for more details, see our [our blog post](https://medium.com/paperswithcode/ml-code-completeness-checklist-e9127b168501). 
 
-For NeurIPS 2020 code submissions it is recommended (but not mandatory) to use the [README.md template](templates/README.md) and check as many items on the ML Code Completeness Checklist (described below) as possible. 
+For NeurIPS 2021 code submissions it is recommended (but not mandatory) to use the [README.md template](templates/README.md) and check as many items on the ML Code Completeness Checklist (described below) as possible. 
 
 ## 📋 README.md template
 
@@ -16,7 +16,7 @@ We provide a [README.md template](templates/README.md) that you can use for rele
 
 We compiled this checklist by looking at what's common to the most popular ML research repositories. In addition, we prioritized items that facilitate reproducibility and make it easier for others build upon research code.
 
-The ML Code Completness Checklist consists of five items:
+The ML Code Completeness Checklist consists of five items:
 
 1. **Specification of dependencies**
 2. **Training code** 
@@ -74,6 +74,9 @@ You can further help the user understand and contextualize your results by linki
 4. [Google Drive](https://drive.google.com) - versioning, 15GB, free bandwidth
 5. [Dropbox](https://dropbox.com) - versioning, 2GB (paid unlimited), free bandwidth
 6. [AWS S3](https://aws.amazon.com/s3/) - versioning, paid only, paid bandwidth
+7. [huggingface_hub](https://github.com/huggingface/huggingface_hub) - versioning, no size limitations, free bandwidth
+8. [DAGsHub](https://dagshub.com/) - versioning, no size limitations, free bandwith
+9. [CodaLab Worksheets](https://worksheets.codalab.org/) - 10GB, free bandwith
  
 ### Managing model files
 
@@ -88,10 +91,10 @@ You can further help the user understand and contextualize your results by linki
 
 ### Results leaderboards
 
-1. [Papers with Code leaderboards](https://paperswithcode.com/sota) - with 2500+ leaderboards
-2. [CodaLab](https://competitions.codalab.org/) - with 450+ leaderboards
-3. [NLP Progress](https://nlpprogress.com/) - with 90+ leaderboards
-4. [EvalAI](https://evalai.cloudcv.org/) - with 50+ leaderboards
+1. [Papers with Code leaderboards](https://paperswithcode.com/sota) - with 4000+ leaderboards
+2. [CodaLab Competitions](https://competitions.codalab.org/) - with 450+ leaderboards
+3. [EvalAI](https://eval.ai/) - with 100+ leaderboards
+4. [NLP Progress](https://nlpprogress.com/) - with 90+ leaderboards
 5. [Collective Knowledge](https://cKnowledge.io/reproduced-results) - with 40+ leaderboards
 6. [Weights & Biases - Benchmarks](https://www.wandb.com/benchmarks) - with 9+ leaderboards
 
@@ -100,11 +103,12 @@ You can further help the user understand and contextualize your results by linki
 1. [GitHub pages](https://pages.github.com/)
 2. [Fastpages](https://github.com/fastai/fastpages)
 
-### Making demos and tutorials
+### Making demos, tutorials, executable papers
 
 1. [Google Colab](https://colab.research.google.com/)
 2. [Binder](https://mybinder.org/)
 3. [Streamlit](https://github.com/streamlit/streamlit)
+4. [CodaLab Worksheets](https://worksheets.codalab.org/)
 
 ## Contributing
 
